@@ -125,13 +125,13 @@
 //  var c = 45;
 
 //  if(a>b || a>c){
-//     console.log('a large number');
+//     console.log(a);
 //  }
 // else if(b>c || b>a){
-//     console.log('b large number');
+//     console.log(b);
 // }
 // else if(c>a || c>b){
-//     console.log('c large number');
+//     console.log(c);
 // }
 // else{
 //     console.log('Error Detect');
@@ -146,16 +146,9 @@ var a = 9;
 var b = 8;
 var c = 9;
 
-if(a >= b || a >= c){
-    console.log("a Isosceles");
-
-}
-else if(b >= c || b >=a){
-console.log("b is Isosceles");
-}
-else if(c >= b || c >=a){
-    console.log("c is Isosceles");
+if(a==b||b==c||c==a){
+    console.log('it is isosceles');
 }
 else{
-    console.log("Error Detect");
+    console.log('Error Detect');
 }

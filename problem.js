@@ -7,7 +7,7 @@ console.log(calculation);
 
 // problem 2 
 
-var Mathematics = 75;
+var Mathematics = 75.25;
 var Biology = 25;
 var Chemistry = 65;
 var Physics = 80;
