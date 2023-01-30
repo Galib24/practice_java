@@ -42,16 +42,22 @@
 
 
 // Fourth problem 
-function oddEven(arr) {
-    for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 == 0) {
-    console.log("Even");
-    } else {
-    console.log("Odd");
+function odd_even(a,b,c,d,e){
+    for(a=1;a<=odd_even.length;a+=1){
+        if(a%2==0){
+                    console.log( 'It is even');
+                }
+                else{
+                    console.log( 'It is odd');
+                    
+                }
+        
     }
-    }
-    }
-    oddEven([10, 20, 15, 15]);
+
+
+}
+odd_even(1,2,3,4,5)
+
 
 
 
