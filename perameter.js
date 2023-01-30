@@ -50,12 +50,39 @@
 
 // function problem operation 1
 
-function getmyCgpa(semester1, semester2){
-    const total = semester1 + semester2;
-    const average = total/2;
-    return average;
+// function getmyCgpa(semester1, semester2){
+//     const total = semester1 + semester2;
+//     const average = total/2;
+//     return average;
+// }
+// var firstGet= 3;
+// var secondGet= 3;
+//  var myAverage = getmyCgpa(firstGet, secondGet);
+//  console.log('I got: ', myAverage);
+
+
+// object of function
+
+var student = {
+    id: 115,
+    name: 'Solaeman Khan',
+    class: 9,
+    marks: 98
 }
-var firstGet= 3;
-var secondGet= 3;
- var myAverage = getmyCgpa(firstGet, secondGet);
- console.log('I got: ', myAverage);
+
+var mobile = {
+    brand: 'Samsung',
+    price: 19000,
+    storage: '64gb',
+    camera: '7MP'
+}
+
+var myComputer = {
+brand:'lenovo',
+price: 39000,
+color: 'black',
+processor: 'i7'
+}
+console.log(myComputer);
+myComputer.processor = 'i79';
+console.log(myComputer);
