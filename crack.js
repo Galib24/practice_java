@@ -110,13 +110,29 @@ let result = reverseName("John", "Alexis");
 // console.log(totalElement);
 
 //  another
-function solution(letter){
-  if (letter == 'a'|| letter == 'e' || letter == 'i' || letter == 'o'|| letter == 'u'){
-    return 'VOWEL';
+// function solution(letter){
+//   if (letter == 'a'|| letter == 'e' || letter == 'i' || letter == 'o'|| letter == 'u'){
+//     return 'VOWEL';
+//   }
+//   else{
+//     return 'CONSONANT'
+//   }
+// }
+// let alphaBet = solution('a','b', 'c', 'd', 'e', 'f','g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't','u', 'v', 'w','x','y','z');
+// console.log(alphaBet);
+
+// another 
+function peter(program){
+  
+  if( program % 2 == 0){
+    return true;
   }
   else{
-    return 'CONSONANT'
+    return false;
   }
+  
 }
-let alphaBet = solution('a','b', 'c', 'd', 'e', 'f','g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't','u', 'v', 'w','x','y','z');
-console.log(alphaBet);
+var num1 = peter(98);
+console.log(num1);
+var num2 = peter(117);
+console.log(num2);
