@@ -163,3 +163,36 @@ let result = reverseName("John", "Alexis");
 // }
 // let years = [2002, 2003,2016,2020,1952,2024,2025];
 // console.log(findLeapYear(years));
+function isJavaScriptFile(fileName){
+  // console.log(fileName);
+
+  if(fileName.endsWith('.js')){
+    return true
+  }
+  else{
+    return false;
+  }
+}
+let Result = isJavaScriptFile('index.js')
+// console.log(Result);
+
+
+// best friend
+
+function isBestFriend(ObjectOne, ObjectTwo){
+  if(
+    ObjectOne.name == Object.friend &&
+    ObjectTwo.name == Object.friend
+  ){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+console.log(
+  isBestFriend(
+    {name: "abul", friend:"babul"},
+    {name: "babul", friend:"abul"},
+  )
+);
