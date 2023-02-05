@@ -71,12 +71,52 @@ function reverseName(nameOne, nameTwo){
   let friendTwoLength=nameTwo.length;
   
   if(friendOneLength > friendTwoLength){
-    return namOne.split("").reverse().join("");
+    // return namOne.split("").reverse().join("");
   }
   else{
-    return nameTwo.split("").reverse().join("");
+    // return nameTwo.split("").reverse().join("");
   }
      
 }
 let result = reverseName("John", "Alexis");
-console.log(result);
+// console.log(result);
+
+// another
+// function totalCost(products){
+//   let sum = 0;
+//   for(let i = 0; i < products.length; i++){
+//     let value = products[i];
+//     sum = sum + value.price;
+//   }
+//   return sum;
+// };
+
+//   var case1=([
+//     {name: 'DanO Milk', price: 500},
+//     {name: 'TaaZa tea', price: 200},
+//     {name: 'fresh sugar', price: 300},
+  
+//   ]);
+//  var case2=([
+//     {name: 'Samsung M33', price: 10000},
+//     {name: 'Samsung Charger', price: 500},
+//     {name: 'HavEit Speaker', price: 2500},
+
+//   ]);
+//   let totalCase = (case1, case2);
+//   let totalElement =totalCost(totalCase);
+  
+
+// console.log(totalElement);
+
+//  another
+function solution(letter){
+  if (letter == 'a'|| letter == 'e' || letter == 'i' || letter == 'o'|| letter == 'u'){
+    return 'VOWEL';
+  }
+  else{
+    return 'CONSONANT'
+  }
+}
+let alphaBet = solution('a','b', 'c', 'd', 'e', 'f','g', 'h', 'i', 'j', 'k', 'l', 'm','n', 'o', 'p', 'q', 'r', 's', 't','u', 'v', 'w','x','y','z');
+console.log(alphaBet);
