@@ -122,17 +122,44 @@ let result = reverseName("John", "Alexis");
 // console.log(alphaBet);
 
 // another 
-function peter(program){
+// function peter(program){
   
-  if( program % 2 == 0){
-    return true;
-  }
-  else{
-    return false;
-  }
+//   if( program % 2 === 0){
+//     return true;
+//   }
+//   else{
+//     return false;
+//   }
   
-}
-var num1 = peter(98);
-console.log(num1);
-var num2 = peter(117);
-console.log(num2);
+// }
+// var num1 = peter(98);
+// console.log(num1);
+// var num2 = peter(117);
+// console.log(num2);
+
+
+// again
+
+// function radianTpDegree(radian) {
+//   const PI = 3.141631837;
+//   const degree = (radian*(180/PI).toFixed(2));
+//   return degree;
+  
+// }
+// var newOne = 30;
+// console.log(radianTpDegree(newOne));
+
+// leap year
+// function findLeapYear(years){
+//   let result = [];
+// for(let i = 0; i<years.length; i++ ){
+//   const element = years[i];
+// if(((element % 4 == 0) && (element % 100 !==0)) || (element % 400 == 0)){
+//   result.push(element);
+// }
+
+// }
+// return result;
+// }
+// let years = [2002, 2003,2016,2020,1952,2024,2025];
+// console.log(findLeapYear(years));
