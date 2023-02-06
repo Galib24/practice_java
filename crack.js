@@ -141,8 +141,11 @@ let result = reverseName("John", "Alexis");
 // again
 
 // function radianTpDegree(radian) {
+  // if(typeof radian !== 'number'){
+  //   return "provide valid input"
+  // }
 //   const PI = 3.141631837;
-//   const degree = (radian*(180/PI).toFixed(2));
+//   const degree = (radian*(180/PI)).toFixed(2);
 //   return degree;
   
 // }
@@ -179,20 +182,23 @@ let Result = isJavaScriptFile('index.js')
 
 // best friend
 
-function isBestFriend(ObjectOne, ObjectTwo){
-  if(
-    ObjectOne.name == Object.friend &&
-    ObjectTwo.name == Object.friend
-  ){
-    return true;
-  }
-  else{
-    return false;
-  }
-}
-console.log(
-  isBestFriend(
-    {name: "abul", friend:"babul"},
-    {name: "babul", friend:"abul"},
-  )
-);
+// function isBestFriend(ObjectOne, ObjectTwo){
+//   if(
+//     ObjectOne.name == Object.friend &&
+//     ObjectTwo.name == Object.friend
+//   ){
+//     return true;
+//   }
+//   else{
+//     return false;
+//   }
+// }
+// console.log(
+//   isBestFriend(
+//     {name: "abul", friend:"babul"},
+//     {name: "babul", friend:"abul"},
+//   )
+// );
+
+
+
