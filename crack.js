@@ -33,21 +33,21 @@
     // }
     // console.log(count);
 
-//     function greaterThanFive(numbers){
-//       let count = 0;
-//       for(let i = 0; i<numbers.length; i++){
-//         const Element = numbers[i];
-//         // console.log(Element);
-//         if(Element>5){
-//           count++;
-//         }
+    function greaterThanFive(numbers){
+      let count = 0;
+      for(let i = 0; i<numbers.length; i++){
+        const Element = numbers[i];
+        // console.log(Element);
+        if(Element>5){
+          count++;
+        }
 
-//       }
-//       return count;
-//     }
+      }
+      return count;
+    }
 
-// let result = greaterThanFive([-1,2,-3,4,5,6,-7,8,-9,10]);
-// console.log(result);
+let result1 = greaterThanFive([-1,2,-3,4,5,6,-7,8,-9,10]);
+console.log(result1);
 
 // another problem without function
 let namOne = 'John';
